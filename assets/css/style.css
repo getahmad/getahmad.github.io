@@ -1,0 +1,226 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Maven Pro', sans-serif;
+}
+
+/* NAVBAR */
+.navbar{
+    background-color: #5E8EB0;
+}
+
+.nav-link {
+    color: white !important;
+    font-weight: bold;
+    font-size: 16px ;
+}
+
+.nav-link:hover{
+    color: #eaeaea !important;
+}
+
+
+/* JUMBOTRON */
+.jumbotron{
+    background-image: url('../images/background.png');
+    width: 100%;
+    background-color: white;
+    height: 800px;
+    background-size: cover;
+    overflow: hidden;
+    margin-top: -62px;
+}
+
+.jumbotron .container   {
+    position: relative;
+    height: 740px;
+    width: 100%;
+}
+
+.jumbotron h1{
+    font-weight: bold;
+    font-size: 100px;
+    color: white;
+    padding-top: 150px;
+    padding-left: 100px;
+}
+
+.jumbotron h1 span{
+    color: black;
+}
+
+.jumbotron p{
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    padding-top: 30px;
+    padding-left: 100px;
+}
+
+.jumbotron img{
+    position: absolute;
+    width: 743px;
+    right: -170px;
+    bottom: 8px;
+}
+
+.btn-cv {
+    margin-top: 20px;
+    margin-left: 100px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.jumbotron a .btn-cv{
+    font-weight: bold;
+    color: black;
+    font-size: 16px ;
+    text-decoration: none;
+   
+}
+
+.btn-cv:hover{
+    background-color: #eaeaea;
+}
+
+/* ABOUT */
+.about{
+    margin-top: 50px;
+    padding-top: 20px;
+}
+
+.about h1{ 
+    text-align: center;
+    font-weight: bold;
+}
+
+.about p{
+    padding-top: 50px;
+    font-size: 24px;
+    line-height: 50px;
+    text-align: justify;
+}
+
+.konten2{
+    margin-top: 70px;
+}
+
+.konten2 h2{
+    font-weight: bold;
+}
+
+.konten2 img{
+    width: 300px;
+}
+
+.konten2 p{
+    padding-top: 10px;
+    font-size: 20px;
+}
+
+
+/* GALLERY */
+.gallery{
+    background-image: url('../images/bg-blog.png');
+    width: 100%;
+    margin-top: 60px;
+    height: 402px;
+}
+
+.gallery h1{
+    padding-top: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+.gallery img{
+    padding-top: 20px;
+    width: 100%; 
+    margin: auto;
+}
+
+
+
+/* CONTACT */
+
+.contact h1{
+    padding-top: 60px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.contact .icon  {
+    padding-top: 30px;
+    width: 100%;
+    text-align: center;
+}
+.contact .icon a{
+    padding: 10px;
+    width: 30px;
+    text-decoration: none;
+}
+
+/* FOOTER */
+footer{
+    margin-top: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+
+
+ /* sm */
+ @media (max-width: 767.98px) { 
+    .jumbotron img{
+        display: none;
+    }
+
+    .jumbotron h1{
+        font-size: 60px;
+        padding-left: 50px;
+    }
+
+    .jumbotron p{
+        font-size: 20px;
+        padding-top: 20px;
+    }
+
+    .jumbotron h1 span{
+        padding-left: 25px;
+        color: black;
+    }
+
+    .btn-cv {
+        margin-left: 150px;
+    }
+
+    .about{
+        margin-top: -100px;
+        padding-top: 10px;
+    }
+
+    .about p{
+        line-height: 40px;
+    }
+
+    .about .konten1 img{
+        margin-top: 20px;
+        display: block;
+        margin: 0 auto;
+        width: 70%;
+    }
+
+    .about .konten2 h2{
+        text-align: center;
+        padding-bottom: 20px;
+    }
+
+    .about .konten2 img{
+        display: block;
+        margin: 0 auto;
+    }
+ }
+
+ /* md */
