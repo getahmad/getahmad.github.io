@@ -11,6 +11,22 @@ body{
     background-color: #5E8EB0;
 }
 
+.navbar-brand1{
+    display: block;
+    position: relative;
+}
+
+.navbar-brand2{
+    top: 14px;
+    left: 16px;
+    position: absolute;
+}
+
+.navbar-brand2:hover{
+    opacity: 0;
+   
+}
+
 .nav-link {
     color: white !important;
     font-weight: bold;
@@ -124,9 +140,11 @@ body{
 /* GALLERY */
 .gallery{
     background-image: url('../images/bg-blog.png');
+    display: block;
     width: 100%;
     margin-top: 60px;
     height: 402px;
+    background-size: cover;
 }
 
 .gallery h1{
@@ -221,6 +239,9 @@ footer{
         display: block;
         margin: 0 auto;
     }
+
+  
+    
  }
 
  /* md */
