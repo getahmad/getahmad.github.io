@@ -64,7 +64,7 @@ body{
 }
 
 .jumbotron h1 span{
-    color: black;
+    color: #4a4a4a;
 }
 
 .jumbotron p{
@@ -91,7 +91,7 @@ body{
 
 .jumbotron a .btn-cv{
     font-weight: bold;
-    color: black;
+    color: #4a4a4a;
     font-size: 16px ;
     text-decoration: none;
    
@@ -110,6 +110,16 @@ body{
 .about h1{ 
     text-align: center;
     font-weight: bold;
+    color: #5E8EB0;
+    font-size: 36px;
+}
+
+.about hr{
+    margin-top: 0;
+    border: 0;
+    width:130px;
+    height: 5px;
+    background-color: #4A4A4A;
 }
 
 .about p{
@@ -119,26 +129,43 @@ body{
     text-align: justify;
 }
 
-.konten2{
-    margin-top: 70px;
+.project{
+    margin-top: 50px;
+    padding-top: 20px;
 }
 
-.konten2 h2{
+.head-project h1{
     font-weight: bold;
+    color: #5E8EB0;
+    font-size: 36px;
 }
 
-.konten2 img{
-    width: 300px;
+.head-project hr{
+    display: inline-block;
+    text-align: left;
+    margin-top: 0;
+    width:380px;
+    height: 5px;
+    background-color: #4A4A4A;
 }
 
-.konten2 p{
-    padding-top: 10px;
-    font-size: 20px;
+.isi-project1 {
+    text-align: right;
+    line-height: 200%;
+}
+.isi-project2 {
+    text-align: left;
+    line-height: 200%;
 }
 
 
-/* GALLERY */
-.gallery{
+
+
+
+
+
+/* Blog */
+.blog{
     background-image: url('../images/bg-blog.png');
     display: block;
     width: 100%;
@@ -147,16 +174,35 @@ body{
     background-size: cover;
 }
 
-.gallery h1{
-    padding-top: 20px;
-    text-align: center;
+.blog .isi-blog{
+    margin: 0;
+    padding-top: 50px;
+}
+
+.note-blog h1{
     font-weight: bold;
+    color: #5E8EB0;
+    font-size: 36px;
 }
-.gallery img{
-    padding-top: 20px;
-    width: 100%; 
-    margin: auto;
+
+.note-blog hr{
+    display: inline-block;
+    text-align: left;
+    margin-top: 0;
+    border: 0;
+    width:110px;
+    height: 5px;
+    background-color: #4A4A4A;
 }
+
+.note-blog p{
+    line-height: 180%;
+}
+
+.content-blog .card img{
+    height: 150px;
+}
+
 
 
 
@@ -191,6 +237,7 @@ footer{
 
  /* sm */
  @media (max-width: 767.98px) { 
+
     .jumbotron img{
         display: none;
     }
@@ -203,11 +250,12 @@ footer{
     .jumbotron p{
         font-size: 20px;
         padding-top: 20px;
+        padding-left: 110px;
     }
 
     .jumbotron h1 span{
         padding-left: 25px;
-        color: black;
+        color: #4a4a4a;
     }
 
     .btn-cv {
@@ -221,6 +269,8 @@ footer{
 
     .about p{
         line-height: 40px;
+        font-size: 22px;
+        padding-top: 20px;
     }
 
     .about .konten1 img{
@@ -230,18 +280,38 @@ footer{
         width: 70%;
     }
 
-    .about .konten2 h2{
-        text-align: center;
-        padding-bottom: 20px;
+    .isi-project1{
+        display: none;
     }
-
-    .about .konten2 img{
-        display: block;
-        margin: 0 auto;
+    .isi-project2{
+        display: none;
     }
-
-  
+    .isi-project img{
+        width: 100%;
+    }
     
+    .project hr {
+        width: 100%;
+    }
+
+    .about h1{
+        font-size: 30px;
+    }
+    .project h1 {
+        font-size: 30px;
+    }
+    .blog h1{
+        font-size: 30px;
+    }
+    .contact h1{
+        font-size: 30px;
+    }
+
+    .contact{
+        margin-top: 520px;
+    }
+
+
  }
 
  /* md */
